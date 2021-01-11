@@ -45,7 +45,7 @@ client_id=33333333-1234-5678-9579-xxxxxxxxxxxx</li>
 </ol>
 
 ### Review the app, upload to server and run the code by Cron job
-** Request App Review **
+** **Request App Review** **
 - [20 API calls in the last 30 days.]
 - [Successfully completed the last 20 API calls.]
 - [Complies with DocuSign API rules and limits.]
