@@ -5,25 +5,24 @@ set_time_limit(600);
 
 // [0] Settings
 $accountId = "xxxxxxxxxxxx";
-$powerFormId = "11111111-1234-5678-bc9d-xxxxxxxxxxxx";
-$templateId = "2222222-1234-5678-99ca-xxxxxxxxxxxx";
+$clientUsernameId = '11111111-1234-5678-bc9d-xxxxxxxxxxxx';
+$clientAccountId = '2222222-1234-5678-99ca-xxxxxxxxxxxx';
 $clientId = '33333333-1234-5678-9579-xxxxxxxxxxxx';
-$clientUsernameId = '44444444-1234-5678-a9cd-xxxxxxxxxxxx';
-// Keypair ID: 55555555-8ac0-4203-9d3c-xxxxxxxxxxxx
+// Keypair ID: 4444444-8ac0-4203-9d3c-xxxxxxxxxxxx
 $publicKey = <<<EOD
 -----BEGIN PUBLIC KEY-----
-...
+... 55555555
 -----END PUBLIC KEY-----
 EOD;
 $privateKey = <<<EOD
 -----BEGIN RSA PRIVATE KEY-----
-...
+... 66666666
 -----END RSA PRIVATE KEY-----
 EOD;
 $redirectUri = "http://localhost:8080/callback.php";
-$urlServer = 'account.docusign.net';
+$urlServer = 'account.docusign.com'; // For demo: account-d.docusign.com
 $url = 'https://'.$urlServer;
-$urlOauth = 'eu.docusign.com';
+$urlOauth = 'eu.docusign.com'; // For demo: demo.docusign.net
 $urlToken = 'https://'.$urlOauth.'/oauth/token';
 
 // Helper Function
