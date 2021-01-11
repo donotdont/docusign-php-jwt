@@ -7,21 +7,21 @@ DocuSign PHP Example get an access token with JWT Grant authentication and get a
 <li>Login to developer account, Link : https://developers.docusign.com/auth/docusign-demo</li>
 <li>Go to "My Apps & Keys", Link : https://admindemo.docusign.com/api-integrator-key</li>
 <li>Note: My Account Information
-***Account ID:*** xxxxxxxxxxxx
-***API Username:*** 11111111-1234-5678-bc9d-xxxxxxxxxxxx
-***API Account ID:*** 2222222-1234-5678-99ca-xxxxxxxxxxxx
-***Account's Base URI:*** https://demo.docusign.net</li>
+**Account ID:** xxxxxxxxxxxx
+**API Username:** 11111111-1234-5678-bc9d-xxxxxxxxxxxx
+**API Account ID:** 2222222-1234-5678-99ca-xxxxxxxxxxxx
+**Account's Base URI:** https://demo.docusign.net</li>
 <li>Click the "ADD APP & INTEGRATION KEY" button to create a new app.</li>
 <li>Assign a new app name and click the "ADD" button.</li>
 <li>Note: Integration Key
-***Client ID:*** 33333333-1234-5678-9579-xxxxxxxxxxxx</li>
+**Client ID:** 33333333-1234-5678-9579-xxxxxxxxxxxx</li>
 <li>Click "ADD RSA KEYPAIR" button, Note :
 Keypair ID: 4444444-8ac0-4203-9d3c-xxxxxxxxxxxx
-***Public Key:***
+**Public Key:**
 -----BEGIN PUBLIC KEY-----
 ...... 55555555
 -----END PUBLIC KEY-----
-***Private Key:***
+**Private Key:**
 -----BEGIN RSA PRIVATE KEY-----
 ...... 66666666
 -----END RSA PRIVATE KEY-----</li>
@@ -34,7 +34,7 @@ Keypair ID: 4444444-8ac0-4203-9d3c-xxxxxxxxxxxx
 <li>Extract docusign-php-jwt.zip file.
 Clone Project from GitHub : https://github.com/donotdont/docusign-php-jwt/tree/master</li>
 <li>Set configuration all parameters in callback.php .</li>
-<li>Replace ***client_id*** parameter in index.html .
+<li>Replace **client_id** parameter in index.html .
 client_id=33333333-1234-5678-9579-xxxxxxxxxxxx</li>
 <li>Open Command Prompt, go to current code directory and start php server by this command:
 cd C:\xampp\htdocs\docusign && php -S localhost:8080</li>
@@ -78,7 +78,7 @@ cd C:\xampp\htdocs\docusign && php -S localhost:8080</li>
 <ol>
 <li>Prepare callback.php file and accept permission (Production Account) :
 Set configuration all parameters in callback.php .</li>
-<li>Replace ***client_id*** parameter in index.html .
+<li>Replace **client_id** parameter in index.html .
 client_id=33333333-1234-5678-9579-xxxxxxxxxxxx</li>
 <li>Open Command Prompt, go to current code directory and start php server by this command:
 cd C:\xampp\htdocs\docusign && php -S localhost:8080</li>
