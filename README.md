@@ -41,7 +41,7 @@ client_id=33333333-1234-5678-9579-xxxxxxxxxxxx</li>
 <li>Open browser, goto http://localhost:8080 and click "Login to accept permission first time" link.</li>
 <li>Login demo account.</li>
 <li>Click the "ACCEPT" button.</li>
-<li>Check and debug response from Docusign.</li>
+<li>Check and debug response from DocuSign.</li>
 </ol>
 
 ### Review the app, upload to server and run the code by Cron job
@@ -58,7 +58,7 @@ client_id=33333333-1234-5678-9579-xxxxxxxxxxxx</li>
 <li>Save and check crontab to run the process.<br />
 <code>ubuntu@os:~$ crontab -l</code></li>
 <li>Waiting total requests more than 20.</li>
-<li>Go to the app on Docusign.</li>
+<li>Go to the app on DocuSign.</li>
 <li>Click the "SUBMIT FOR REVIEW" button.</li>
 <li>Waiting review passed about 20 minute.</li>
 </ol>
@@ -85,5 +85,5 @@ client_id=33333333-1234-5678-9579-xxxxxxxxxxxx</li>
 <li>Open browser, goto http://localhost:8080 and click "Login to accept permission first time" link.</li>
 <li>Login production account.</li>
 <li>Click the "ACCEPT" button.</li>
-<li>Check and debug response from Docusign.</li>
+<li>Check and debug response from DocuSign.</li>
 </ol>
