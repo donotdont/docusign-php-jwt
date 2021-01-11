@@ -6,7 +6,7 @@ DocuSign PHP Example get an access token with JWT Grant authentication and get a
 <ol>
 <li>Login to developer account, Link : https://developers.docusign.com/auth/docusign-demo</li>
 <li>Go to "My Apps & Keys", Link : https://admindemo.docusign.com/api-integrator-key</li>
-<li>Note: My Account Information
+<li>Note: My Account Information<br />
 <b>Account ID:</b> xxxxxxxxxxxx<br />
 <b>API Username:</b> 11111111-1234-5678-bc9d-xxxxxxxxxxxx<br />
 <b>API Account ID:</b> 2222222-1234-5678-99ca-xxxxxxxxxxxx<br />
@@ -45,7 +45,7 @@ client_id=33333333-1234-5678-9579-xxxxxxxxxxxx</li>
 </ol>
 
 ### Review the app, upload to server and run the code by Cron job
-### Request App Review
+** Request App Review **
 - [20 API calls in the last 30 days.]
 - [Successfully completed the last 20 API calls.]
 - [Complies with DocuSign API rules and limits.]
